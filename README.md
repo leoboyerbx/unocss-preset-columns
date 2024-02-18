@@ -51,6 +51,20 @@ The following features are supported:
 
 ## Usage
 
+Install the package
+
+npm
+
+```bash
+npm i -D unocss-preset-columns
+```
+
+pnpm
+
+```bash
+pnpm i -D unocss-preset-columns
+```
+
 In `uno.config.ts`
 
 ```typescript
