@@ -6,7 +6,7 @@ For example, if your design has 14 columns, `px-1c` will generate the following 
 
 ```css
 .px-1c {
-  padding-left: 7.1428571429vw; // 1/14 * 100vw
+  padding-left: 7.1428571429vw; /* 1/14 * 100vw */
   padding-right: 7.1428571429vw;
 }
 ```

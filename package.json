@@ -1,7 +1,7 @@
 {
   "name": "unocss-preset-columns",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A dead-simple uno preset that adds a column unit to unocss.",
   "type": "module",
   "exports": {
     ".": {
