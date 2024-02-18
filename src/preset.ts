@@ -1,4 +1,4 @@
-import { DynamicMatcher, Preset, Rule } from "unocss";
+import { DynamicMatcher, Preset, Rule } from "@unocss/core";
 
 const columnsUnit = (
   utility: string,
