@@ -74,7 +74,10 @@ export default defineConfig({
   // ...
   presets: [
     // ...
-    presetColumns(14), // The parameter is the number of columns in your design
+    presetColumns({
+      // The number of columns in your design (default to 14)
+      colsNum: 14
+    }), 
   ],
   // ...
 });
