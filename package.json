@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-columns",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A dead-simple uno preset that adds a column unit to unocss.",
   "repository": "https://github.com/leoboyerbx/unocss-preset-columns",
   "homepage": "https://github.com/leoboyerbx/unocss-preset-columns#readme",
@@ -23,13 +23,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@unocss/core": "^0.58.5"
+    "@unocss/core": "^66.6.1"
   },
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub"
   },
   "devDependencies": {
-    "unbuild": "^2.0.0"
+    "unbuild": "^3.6.1"
   }
 }

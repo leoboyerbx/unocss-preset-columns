@@ -1,4 +1,4 @@
-import { DynamicMatcher, Preset, Rule } from "@unocss/core";
+import { definePreset, DynamicMatcher, Preset, Rule } from "@unocss/core";
 
 const columnsUnit = (
   utility: string,
@@ -19,9 +19,15 @@ const columnsUnit = (
   };
   return [regex, matcher];
 };
-export function presetColumns(colsNum = 14): Preset {
+
+
+type PresetConfig = {
+  colsNum?: number;
+};
+
+export default definePreset(({ colsNum = 14 }: PresetConfig) => {
   return {
-    name: "wnk-preset-columns",
+    name: "unocss-preset-columns",
 
     rules: [
       columnsUnit("w", ["width"], colsNum),
@@ -64,4 +70,4 @@ export function presetColumns(colsNum = 14): Preset {
       columnsUnit("translate-y", ["--un-translate-y"], colsNum),
     ],
   };
-}
+})

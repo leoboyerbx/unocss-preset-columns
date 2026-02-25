@@ -1,4 +1,4 @@
-import { presetColumns } from "./preset";
+import presetColumns from "./preset";
 
-export * from "./preset";
+export { presetColumns };
 export default presetColumns;
